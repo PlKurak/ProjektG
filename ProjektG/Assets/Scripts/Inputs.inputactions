@@ -1,0 +1,84 @@
+{
+    "name": "Inputs",
+    "maps": [
+        {
+            "name": "PlayerOW",
+            "id": "780a6df6-6c93-4c44-9c13-f8ed734c4b8a",
+            "actions": [
+                {
+                    "name": "Movement",
+                    "type": "Value",
+                    "id": "2dcd433d-9e09-481b-809b-430aaaf40700",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "1D Axis",
+                    "id": "5a0a0792-4cf6-4363-a542-76ecc0fe6f5d",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "dae7195a-7dcb-439b-ab30-ce9e73c9b430",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "0083465a-9697-451e-92e7-f792aa6759a6",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "PlayerBattle",
+            "id": "41e0d9c7-e61b-4f4e-8fec-f182460925b5",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "7a2d7e22-0bb0-41c7-948e-b03d7e3cb2d8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "24993acd-3a27-4342-9c4a-b3e925b39277",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
